@@ -135,8 +135,8 @@ button:focus-visible {
 .hero h1 {
   position: relative;
   z-index: 2;
-  font-size: clamp(66px, 9vw, 118px);
-  line-height: 0.94;
+  font-size: clamp(58px, 8vw, 104px);
+  line-height: 0.96;
 }
 
 .hero h1 span {
@@ -144,20 +144,20 @@ button:focus-visible {
 }
 
 .hero-bottom {
-  width: 600px;
-  max-width: 58%;
-  margin-top: 34px;
+  width: 560px;
+  max-width: 56%;
+  margin-top: 30px;
   display: flex;
   align-items: end;
   justify-content: space-between;
-  gap: 28px;
+  gap: 24px;
 }
 
 .hero-bio {
-  max-width: 360px;
+  max-width: 340px;
   margin: 0;
   color: #62645d;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -273,8 +273,8 @@ button:focus-visible {
 
 .section-heading h2 {
   margin-top: 12px;
-  font-size: clamp(46px, 6vw, 68px);
-  line-height: 1.04;
+  font-size: clamp(42px, 5.3vw, 60px);
+  line-height: 1.06;
 }
 
 .section-note {
@@ -534,7 +534,7 @@ button:focus-visible {
 .project-info h3 {
   margin: 0;
   font-family: var(--display);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   letter-spacing: -0.5px;
 }
@@ -568,8 +568,8 @@ button:focus-visible {
 
 .about-content h2 {
   margin: 0;
-  font-size: clamp(46px, 6.4vw, 76px);
-  line-height: 1.04;
+  font-size: clamp(40px, 5.6vw, 68px);
+  line-height: 1.06;
 }
 
 .about-content > div {
@@ -595,8 +595,8 @@ button:focus-visible {
 
 .contact-section h2 {
   margin-top: 17px;
-  font-size: clamp(78px, 12vw, 148px);
-  line-height: 0.84;
+  font-size: clamp(68px, 10.5vw, 128px);
+  line-height: 0.86;
 }
 
 .contact-section h2 span {
