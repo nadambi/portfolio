@@ -140,7 +140,11 @@ button:focus-visible {
 }
 
 .hero h1 span {
-  color: var(--orange);
+  background: linear-gradient(135deg, #2a2b29 0%, #5d4337 35%, #8d412d 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-bottom {
