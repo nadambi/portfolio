@@ -290,7 +290,7 @@ button:focus-visible {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 28px;
   row-gap: 42px;
 }
@@ -325,11 +325,11 @@ button:focus-visible {
   outline-offset: 5px;
 }
 
-.visual-sprout {
+.visual-lumio {
   background: #dce8d6;
 }
 
-.sprout-window {
+.lumio-window {
   width: 58%;
   height: 74%;
   position: relative;
@@ -357,7 +357,7 @@ button:focus-visible {
   letter-spacing: -0.4px;
 }
 
-.sprout-leaf {
+.lumio-leaf {
   width: 95px;
   height: 125px;
   position: absolute;
@@ -368,18 +368,18 @@ button:focus-visible {
   transform: rotate(-30deg);
 }
 
-.leaf-two {
+.lumio-leaf-two {
   top: 81px;
   left: 112px;
   background: #afc08a;
   transform: rotate(36deg) scale(0.83);
 }
 
-.visual-sunday {
+.visual-mori {
   background: #eed9d0;
 }
 
-.sunday-window {
+.mori-window {
   width: 58%;
   height: 74%;
   position: relative;
@@ -389,7 +389,7 @@ button:focus-visible {
   box-shadow: 0 12px 35px #44241d12;
 }
 
-.sunday-name {
+.mori-name {
   position: relative;
   z-index: 1;
   color: #4b453e;
@@ -400,7 +400,7 @@ button:focus-visible {
   letter-spacing: -0.09em;
 }
 
-.sunday-sun {
+.mori-sun {
   width: 128px;
   height: 128px;
   position: absolute;
@@ -410,7 +410,7 @@ button:focus-visible {
   background: #e8926f;
 }
 
-.sunday-note {
+.mori-note {
   position: absolute;
   bottom: 19px;
   left: 20px;
@@ -418,11 +418,11 @@ button:focus-visible {
   letter-spacing: 0.6px;
 }
 
-.visual-field {
+.visual-ondo {
   background: #d3dfe0;
 }
 
-.field-window {
+.ondo-window {
   width: 58%;
   height: 74%;
   position: relative;
@@ -432,15 +432,15 @@ button:focus-visible {
   box-shadow: 0 12px 35px #263a3518;
 }
 
-.field-top,
-.field-bottom {
+.ondo-top,
+.ondo-bottom {
   position: relative;
   z-index: 1;
   font: 8px var(--mono);
   letter-spacing: 0.5px;
 }
 
-.field-title {
+.ondo-title {
   position: relative;
   z-index: 1;
   display: block;
@@ -452,7 +452,7 @@ button:focus-visible {
   letter-spacing: -0.08em;
 }
 
-.field-circle {
+.ondo-circle {
   width: 112px;
   height: 112px;
   position: absolute;
@@ -463,57 +463,11 @@ button:focus-visible {
   box-shadow: 0 0 0 8px #597c7115, 0 0 0 16px #597c7110;
 }
 
-.field-bottom {
+.ondo-bottom {
   position: absolute;
   bottom: 17px;
   left: 19px;
   font-size: 7px;
-}
-
-.visual-common {
-  background: #eed9a8;
-}
-
-.common-window {
-  width: 58%;
-  height: 74%;
-  position: relative;
-  padding: 20px;
-  overflow: hidden;
-  background: #a5b99b;
-  box-shadow: 0 12px 35px #34352116;
-}
-
-.common-title {
-  position: relative;
-  z-index: 1;
-  color: #f3eddb;
-  font-family: var(--display);
-  font-size: clamp(34px, 4.2vw, 51px);
-  font-weight: 600;
-  line-height: 0.83;
-  letter-spacing: -0.09em;
-}
-
-.common-title span {
-  color: #e78b59;
-}
-
-.common-spark {
-  position: absolute;
-  right: 26px;
-  bottom: 33px;
-  color: #e78b59;
-  font-size: 65px;
-}
-
-.common-tag {
-  position: absolute;
-  bottom: 17px;
-  left: 20px;
-  color: #f3eddb;
-  font: 7px var(--mono);
-  letter-spacing: 0.4px;
 }
 
 .project-arrow {
@@ -886,6 +840,7 @@ button:focus-visible {
   }
 
   .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 16px;
     row-gap: 30px;
   }
@@ -894,41 +849,35 @@ button:focus-visible {
     height: clamp(180px, 36vw, 270px);
   }
 
-  .sprout-window,
-  .sunday-window,
-  .field-window,
-  .common-window {
+  .lumio-window,
+  .mori-window,
+  .ondo-window {
     width: 72%;
     height: 77%;
     padding: 13px;
   }
 
-  .sprout-leaf {
+  .lumio-leaf-one {
     left: 28%;
   }
 
-  .leaf-two {
+  .lumio-leaf-two {
     left: 46%;
   }
 
-  .sunday-note,
-  .field-bottom,
-  .common-tag {
+  .mori-note,
+  .ondo-bottom {
     left: 13px;
     font-size: 6px;
   }
 
-  .sunday-name {
+  .mori-name {
     font-size: clamp(28px, 6vw, 42px);
   }
 
-  .field-title {
+  .ondo-title {
     margin-top: 19px;
     font-size: clamp(22px, 4.5vw, 34px);
-  }
-
-  .common-title {
-    font-size: clamp(29px, 6vw, 44px);
   }
 
   .project-info {
@@ -1024,39 +973,33 @@ button:focus-visible {
     height: 260px;
   }
 
-  .sprout-window,
-  .sunday-window,
-  .field-window,
-  .common-window {
+  .lumio-window,
+  .mori-window,
+  .ondo-window {
     width: 61%;
     height: 77%;
     padding: 18px;
   }
 
-  .sprout-leaf {
+  .lumio-leaf-one {
     left: 28%;
   }
 
-  .leaf-two {
+  .lumio-leaf-two {
     left: 42%;
   }
 
-  .sunday-name {
+  .mori-name {
     font-size: 44px;
   }
 
-  .field-title {
+  .ondo-title {
     margin-top: 26px;
     font-size: 35px;
   }
 
-  .common-title {
-    font-size: 46px;
-  }
-
-  .sunday-note,
-  .field-bottom,
-  .common-tag {
+  .mori-note,
+  .ondo-bottom {
     left: 18px;
     font-size: 7px;
   }

@@ -34,41 +34,32 @@ const projectDialogHighlights = document.querySelector("#project-dialog-highligh
 const projectDialogClose = document.querySelector(".project-dialog-close");
 
 const projectDetails = {
-  sprout: {
-    title: "Sprout",
+  lumio: {
+    title: "Lumio",
     description:
-      "Example concept: a wellness brand and responsive website that helps people build small, mindful food habits.",
-    role: "Example role: brand and interface design, responsive page layouts, and front-end implementation.",
-    technologies: "Example tools: HTML, CSS, JavaScript, and Figma.",
+      "Example concept: a lighting brand and responsive website that makes it easier to find a warm, comfortable light for every room.",
+    role: "Example role: visual identity, product page design, and responsive front-end implementation.",
+    technologies: "Example tools: HTML, CSS, vanilla JavaScript, and Figma.",
     highlights:
-      "Example outcome: brought the weekly-planning journey together in one clear, easy-to-follow flow.",
+      "Example outcome: organized product choices by room and mood to make browsing feel simple and personal.",
   },
-  sunday: {
-    title: "Sunday Studio",
+  mori: {
+    title: "Mori",
     description:
-      "Example concept: a calm digital home for a creative studio, designed to make its work easy to explore.",
-    role: "Example role: content structure, visual direction, interaction design, and responsive development.",
-    technologies: "Example tools: HTML, CSS, JavaScript, and Figma.",
+      "Example concept: a gentle self-care brand and online shop focused on simple, mindful daily routines.",
+    role: "Example role: brand direction, shopping experience design, and responsive front-end development.",
+    technologies: "Example tools: HTML, CSS, vanilla JavaScript, and Figma.",
     highlights:
-      "Example outcome: created a consistent browsing experience across the studio's work and service pages.",
+      "Example outcome: created a clear path from product discovery to care guidance in one calm experience.",
   },
-  fieldnotes: {
-    title: "Fieldnotes",
+  "ondo-studio": {
+    title: "Ondo Studio",
     description:
-      "Example concept: a pocket-guide brand and website for discovering thoughtful outdoor routes.",
-    role: "Example role: visual identity, information design, page layouts, and front-end development.",
-    technologies: "Example tools: HTML, CSS, JavaScript, and Figma.",
+      "Example concept: a portfolio website for an independent creative studio sharing its work and approach.",
+    role: "Example role: content structure, visual direction, interaction design, and front-end development.",
+    technologies: "Example tools: HTML, CSS, vanilla JavaScript, and Figma.",
     highlights:
-      "Example outcome: made route information easier to scan with a reusable, guide-focused page structure.",
-  },
-  "common-ground": {
-    title: "Common Ground",
-    description:
-      "Example concept: a neighborhood platform that helps local people find nearby events and places.",
-    role: "Example role: product design, interface prototyping, responsive layouts, and front-end development.",
-    technologies: "Example tools: HTML, CSS, JavaScript, and Figma.",
-    highlights:
-      "Example outcome: organized community updates and local listings in one approachable experience.",
+      "Example outcome: brought the studio's selected work, services, and contact details into one cohesive site.",
   },
 };
 
